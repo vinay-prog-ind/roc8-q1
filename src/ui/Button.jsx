@@ -5,11 +5,8 @@ const type = {
     filter: css`
         border: 2px solid transparent;
         &:hover{
-
-            border: 2px solid #CFC2DC;
-            border-radius: 14px;
             color: #636363;
-            background-color: #E1E4EA;
+            /* background-color: #E1E4EA; */
         }
     `,
     favorite: css`
@@ -20,6 +17,7 @@ const type = {
         background-color: #E54065;
         padding: 5px 10px;
         height: min-content;
+        /* position: fixed; */
     `,
     activeBtn: css`
         border: 2px solid #CFC2DC;

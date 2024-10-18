@@ -5,5 +5,5 @@ export function getDate(date){
     Formatedate = Formatedate.getDate().toString() + "/" + Formatedate.getMonth().toString() + "/" + Formatedate.getFullYear().toString();
     hour >= 12 ? time = time + "pm" : time = time + "am";
     Formatedate = Formatedate + " " +time;
-    return {Formatedate};
+    return Formatedate;
   }

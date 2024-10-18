@@ -1,9 +1,5 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-
-import FilterBar from './components/filter/FilterBar';
-
-import FetchAllEmails from './utils/fetchApi';
 import AppLayout from './AppLayout';
 
 function App() {
@@ -22,9 +18,7 @@ function App() {
     
 
   return (
-    <body>
-      <AppLayout data = {data}/>
-    </body>
+    <AppLayout data={data}/>
   );
 }
 
